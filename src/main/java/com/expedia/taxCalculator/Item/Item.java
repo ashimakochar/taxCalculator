@@ -8,7 +8,7 @@ public abstract class Item {
 	private boolean taxEligible;
 	private BigDecimal additionalAmount;
 	private ItemType type;
-	private double taxPercentage=17.5;
+	private double taxPercentage;
 	private int quantity;
 	public BigDecimal getPrice() {
 		return price;
